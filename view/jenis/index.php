@@ -62,8 +62,8 @@
                 while($result=mysqli_fetch_assoc($query)){
                     ?>
                     <tr>
-                        <td><?php echo $result['nama_jenis'];?></td>
                         <td><?php echo $result['id_jenis'];?></td>
+                        <td><?php echo $result['nama_jenis'];?></td>
                         <td>
                             <a href="" class="btn btn-info">Edit</a>
                             <a href="" class="btn btn-danger">Hapus</a>

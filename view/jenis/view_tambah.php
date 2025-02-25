@@ -12,11 +12,11 @@
         <h1>tambah barang</h1>
     <form action="proses_tambah.php" method="post">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">nama jenis</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nama_jenis">
-    <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">id jenis</label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="id_jenis">
+    <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">nama jenis</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nama_jenis">
     <br><br>
   <button type="submit" class="btn btn-primary">tambah</button>
 </form>

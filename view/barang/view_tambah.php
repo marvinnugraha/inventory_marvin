@@ -16,16 +16,16 @@
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="id_barang">
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">id jenis</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nama_barang">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="id_barang">
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">stok</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="harga">
-    <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">harga</label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="stok">
     <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">harga</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="harga">
+    <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">nama barang</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="id_jenis">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nama_jenis">
     <br><br>
   <button type="submit" class="btn btn-primary">tambah</button>
 </form>

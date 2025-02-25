@@ -65,7 +65,6 @@
                 while($result=mysqli_fetch_assoc($query)){
                     ?>
                     <tr>
-                        <td><?php echo $no;?></td>
                         <td><?php echo $result['id_barang'];?></td>
                         <td><?php echo $result['nama_barang'];?></td>
                         <td><?php echo $result['stok'];?></td>
@@ -77,7 +76,6 @@
                         </td>
                 </tr>
                 <?php
-                $no++;
             }
         }else{
             echo "Data kosong";
